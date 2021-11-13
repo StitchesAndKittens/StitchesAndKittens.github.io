@@ -60,8 +60,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .euan-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
 .euan-dropdown-click,.euan-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
 .euan-dropdown-hover:hover .euan-dropdown-content{display:block}
-.euan-dropdown-hover:first-child,.euan-dropdown-click:hover{background-color:#ccc;color:#000}
-.euan-dropdown-hover:hover > .euan-button:first-child,.euan-dropdown-click:hover > .euan-button:first-child{background-color:#ccc;color:#000;}
+.euan-dropdown-hover:first-child,.euan-dropdown-click:hover{background-color:#b4935d;color:#000}
+.euan-dropdown-hover:hover > .euan-button:first-child,.euan-dropdown-click:hover > .euan-button:first-child{background-color:#b4935d;color:#000;}
 .euan-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
 .euan-check,.euan-radio{width:24px;height:24px;position:relative;top:6px}
 .euan-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
@@ -156,9 +156,44 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .euan-padding-top-64{padding-top:64px!important}.euan-padding-top-48{padding-top:48px!important}
 .euan-padding-top-32{padding-top:32px!important}.euan-padding-top-24{padding-top:24px!important}
 .euan-left{float:left!important}.euan-right{float:right!important}
-.euan-button:hover{color:#000!important;background-color:#ccc!important; transition-duration: 0.3s;}.euan-button{transition-duration: 0.5s;transition-property: background-color;}
+.euan-button:hover{color:#000!important;background-color:#b4935d!important; transition-duration: 0.3s;}.euan-button{transition-duration: 0.5s;transition-property: background-color;}
 .euan-transparent,.euan-hover-none:hover{background-color:transparent!important}
 .euan-hover-none:hover{box-shadow:none!important}
+
+
+}
+.box {
+    margin: 5px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-family:'Francois One', sans-serif;
+    float: left;
+    position:relative;
+    left:0;
+    top:0;
+}
+
+.back-shadow {
+  box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.432);
+}
+
+.card {
+  box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.432);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
 
 .center1 {
   display: block;
@@ -187,7 +222,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .josefinsans {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Yuji Boku', serif;
 }
 
 .centermaps {
