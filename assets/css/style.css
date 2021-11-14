@@ -361,6 +361,7 @@ Alert Messages
 .alertbox.warning {background-color: #dbd52a}
 .alertbox.info {background-color: #007c04}
 
+
 .closealert:hover {
   color: black;
 }
