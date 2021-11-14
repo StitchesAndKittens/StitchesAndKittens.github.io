@@ -1,6 +1,6 @@
 /* Copyright Euan Gannon 2021
     Permission Granted to DetailCarCare.co.uk*/
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{box-sizing:border-box;scroll-behavior: smooth;}*,*:before,*:after{box-sizing:inherit}
 /*
 
 
@@ -17,7 +17,7 @@ abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underli
 b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
 small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
-code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:5;overflow:visible}
 button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
 button,input{overflow:visible}button,select{text-transform:none}
 button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
@@ -39,7 +39,7 @@ html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{ove
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .euan-serif{font-family:serif}.euan-sans-serif{font-family:sans-serif}.euan-cursive{font-family:cursive}.euan-monospace{font-family:monospace}
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.euan-wide{letter-spacing:4px}
-hr{border:0;border-top:1px solid #eee;margin:20px 0}
+hr{border:0;border-top:1px solid rgb(0, 0, 0);margin:20px 0}
 .euan-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .euan-table,.euan-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.euan-table-all{border:1px solid #ccc}
 .euan-bordered tr,.euan-table-all tr{border-bottom:1px solid #ddd}.euan-striped tbody tr:nth-child(even){background-color:#f1f1f1}
@@ -163,6 +163,18 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 }
 
+
+
+img {
+  max-width: 100%!important;
+  height: auto!important;
+  width: auto\9!important;
+
+  /* ie8 */
+}
+
+
+
 .euan-new-button{white-space:normal}
 
 .euan-new-button:hover{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
@@ -197,9 +209,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   padding: 20px;
   text-align: center;
   box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.432);
+  transition-duration: 0.3s;
 }
 
-
+.grid-item:hover {
+  background-color: rgb(197, 197, 197);
+  box-shadow: 0 2px 15px 0px rgb(0, 0, 0);
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.2s;
+}
 
 
 .euan-new-padding-32 {
@@ -292,7 +310,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 13px;
 }
 
 /* Track */
@@ -311,7 +329,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #454545;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 /*

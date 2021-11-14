@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<script src="https://kit.fontawesome.com/9c1d32d692.js" crossorigin="anonymous"></script>
 <style>
 body {font-family: 'Work Sans', sans-serif;}
 </style>
@@ -22,11 +23,12 @@ alert(theMsg);
 }
 //-->
 </script>
+
 </head>
 <body>
 
 <!-- Navbar -->
-<div class="euan-top">
+<div class="euan-top" id="myTopnav">
   <div class="euan-bar euan-black euan-card">
 
 
@@ -54,8 +56,8 @@ alert(theMsg);
 -->
 
     <a href="#" class="euan-bar-item euan-button euan-padding-large">HOME</a>
-    <a href="#main" class="euan-bar-item euan-button euan-padding-large euan-hide-small">ABOUT US</a>
-    <a href="#tour" class="euan-bar-item euan-button euan-padding-large euan-hide-small">PROJECTS</a>
+    <a href="#main" class="euan-bar-item euan-button euan-padding-large">ABOUT US</a>
+    <a href="#tour" class="euan-bar-item euan-button euan-padding-large">PROJECTS</a>
     <div class="euan-dropdown-hover euan-hide-small">
       <button class="euan-padding-large euan-button" title="More">SOCIALS <i class="fa fa-caret-down"></i></button>
       <div class="euan-dropdown-content euan-bar-block euan-card-4">
@@ -65,7 +67,7 @@ alert(theMsg);
         <a href="https://discord.gg/Y7wyeUYuG4" target="_blank" class="euan-bar-item euan-button">Discord Server</a>
       </div>
     </div>
-  </div>
+</div>
 </div>
 
 
@@ -75,7 +77,7 @@ alert(theMsg);
 
 
 
-  <!-- Background Image -->
+  <!-- Background Image and Logo -->
   <div class="euan-display-container euan-center">
     <img src="assets\img\MainBackground.png" onContextMenu="popupMsg('This image is Copyrighted -- Stitches & Kittens')" style="width:100%;">
     <div class="euan-hover-opacity euan-display-middle euan-container euan-text-white euan-padding-32 euan-hide-small">
@@ -110,57 +112,54 @@ alert(theMsg);
   <div class="euan-padding-64" style="max-width:1500px" id="team">
     <h2 class="euan-wide">MEET THE TEAM</h2><br>
 
-
-
-    <div class="grid-container euan-padding-32">
-
-        <div class="grid-item">
-          <h1><b>CreativityDev</b></h1>
-          <p><i>Director, Lead Programmer</i></p>
-          <p>CreativityDev#4470</p>
-        </div>
-
-        <div class="grid-item">
-          <h1><b>Euan Craft</b></h1>
-          <p><i>Community Manager, Web Manager</i></p>
-          <p>Euan Craft#0001</p>
-        </div>
-
-        <div class="grid-item">
-          <h1><b>Gamdrew</b></h1>
-          <p><i>Community Manager</i></p>
-          <p>Gamdrew#6684</p>
-        </div>
-
-        <div class="grid-item">
-            <h1><b>Tamagonk</b></h1>
-            <p><i>2D Artwork Director/Designer</i></p>
-            <p>tamagonk#9175</p>
-        </div>
-
-        <div class="grid-item">
-            <h1><b>Sackboy</b></h1>
-            <p><i>2D Artwork Designer</i></p>
-            <p>TheBraveSackboy#0197</p>
-        </div>
-
-        <div class="grid-item">
-          <h1><b>DuckDev</b></h1>
-          <p><i>2D and 3D Artwork Designer</i></p>
-          <p>DuckDev#9461</p>
-        </div>
-
-        <div class="grid-item">
-          <h1><b>Kirbs999</b></h1>
-          <p><i>3D Artwork Designer</i></p>
-          <p>KingKirb#4551</p>
-        </div>
-
-        </div>
-      </div>
+    <div class="grid-item">
+    <h1><b><i class="fas fa-crown" style="font-size: 25px;color: orange;bottom: 5px;position: relative;"></i> Creativity</b></h1>
+    <p><i>Director, Lead Programmer</i></p>
+    <p>CreativityDev#4470</p>
     </div>
-  </div>
+    
+    <div class="grid-item">
+    <h1><b>Euan</b></h1>
+    <p><i>Community Manager, Web Designer/Developer</i></p>
+    <p>Euan Craft#0001</p>
+    </div>
+    
+    <div class="grid-item">
+    <h1><b>Gamdrew</b></h1>
+    <p><i>Community Manager</i></p>
+    <p>Gamdrew#6684</p>
+    </div>
+    
+    <div class="grid-item">
+    <h1><b>Tamagonk</b></h1>
+    <p><i>2D Artwork Director/Designer</i></p>
+    <p>tamagonk#9175</p>
+    </div>
+    
+    <div class="grid-item">
+    <h1><b>Sackboy</b></h1>
+    <p><i>2D Artwork Designer</i></p>
+    <p>TheBraveSackboy#0197</p>
+    </div>
+    
+    <div class="grid-item">
+    <h1><b>DuckDev</b></h1>
+    <p><i>2D and 3D Artwork Designer</i></p>
+    <p>DuckDev#9461</p>
+    </div>
+    
+    <div class="grid-item">
+    <h1><b>Kirbs</b></h1>
+    <p><i>3D Artwork Designer</i></p>
+    <p>KingKirb#4551</p>
+    </div>
+
+
+  
 </div>
+</div>
+</div>
+
 
   <!--
 
@@ -187,20 +186,20 @@ alert(theMsg);
           </div>
         </div>
         <div class="euan-third euan-margin-bottom">
-          <img src="" alt=" Logo" style="width:100%" class="w3-hover-opacity">
+          <img src="assets/img/BlimberHillsLogo.png" alt=" BH Logo" style="width:83%" class="euan-hover-opacity">
           <div class="euan-container euan-white">
-            <p><b>Project Name</b></p>
+            <p><b>Blimber Hills</b></p>
             <p class="euan-opacity"><i>Stitches & Kittens</i></p>
-            <p>Info about the project.</p>
+            <p>You are a polar bear, and must fight your own kind with giant snowballs!</p>
             <button class="euan-button euan-black euan-margin-bottom" onclick="document.getElementById('project2').style.display='block'">Read More</button>
           </div>
         </div>
         <div class="euan-third euan-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <img src="assets/img/CavernTopia.png" alt="Cavern Topia" style="width:99%" class="euan-hover-opacity">
           <div class="euan-container euan-white">
-            <p><b>Project Name</b></p>
+            <p><b>Cavern Topia</b></p>
             <p class="euan-opacity"><i>Stitches & Kittens</i></p>
-            <p>Info about the project.</p>
+            <p>This project is currently under development.</p><br>
             <button class="euan-button euan-black euan-margin-bottom" onclick="document.getElementById('project3').style.display='block'">Read More</button>
           </div>
         </div>
@@ -241,13 +240,15 @@ alert(theMsg);
   <div id="project2" class="euan-modal">
     <div class="euan-modal-content euan-animate-top euan-card-4">
       <header class="euan-container euan-dark-grey euan-center euan-padding-32">
-        <h2 class="euan-wide"><i class="fa fa-arrow-circle-right euan-margin-right"></i>Project Name (2)</h2>
+        <h2 class="euan-wide"><i class="fa fa-arrow-circle-right euan-margin-right"></i>Blimber Hills</h2>
       </header>
       <div class="euan-container">
-        <p><label><i class="fa fa-info josefinsans"></i> Some info about the Project...</label></p>
+        <p><label><i class="fa fa-info josefinsans"></i> Welcome to Blimber Hills. Play as a polar bear and fight your own kind with nowballs!<br>Find secrets & clues, then demolish everyone with your huge snowball. Come and join us today in Blimber Hills!</label></p>
         <p><label><i class="fa fa-camera"></i> Image(s)</label></p>
-        <img src="assets\img\car1.JPG" class="euan-round-large" style="width:30%;" onContextMenu="popupMsg('This image is Copyrighted -- Stitches & Kittens')"></img>
+        <img src="assets/img/BlimberHillsLogo.png" class="euan-round-large" style="width:30%;" onContextMenu="popupMsg('This image is Copyrighted -- Stitches & Kittens')"></img>
+        <img src="assets/img/blimberhills.png" class="euan-round-large" style="width:30%;" onContextMenu="popupMsg('This image is Copyrighted -- Stitches & Kittens')"></img>
         <button class="euan-new-button euan-block euan-red euan-padding-16 euan-section euan-right euan-round-large" onclick="document.getElementById('project2').style.display='none'">CLOSE <i class="fa fa-remove"></i></button>
+        <a style="float: right;padding-bottom: 10px;" class="euan-text-blue" href="https://www.roblox.com/games/6114481677/Blimber-Hills-V-1" target="_blank">Join us at blimber hills!</a>
       </div>
     </div>
   </div>
@@ -257,12 +258,12 @@ alert(theMsg);
   <div id="project3" class="euan-modal">
     <div class="euan-modal-content euan-animate-top euan-card-4">
       <header class="euan-container euan-dark-grey euan-center euan-padding-32">
-        <h2 class="euan-wide"><i class="fa fa-arrow-circle-right euan-margin-right"></i>Project Name (3)</h2>
+        <h2 class="euan-wide"><i class="fa fa-arrow-circle-right euan-margin-right"></i>Cavern Topia</h2>
       </header>
       <div class="euan-container">
-        <p><label><i class="fa fa-info "></i> Some info about the Project...</label></p>
+        <p><label><i class="fa fa-info "></i> This project is under development; <a class="euan-text-blue" href="https://discord.gg/5H8amwTGcZ" target="_blank">Join our discord</a> to see the progress!</label></p>
         <p><label><i class="fa fa-camera"></i> Image(s)</label></p>
-        <img src="assets\img\car1.JPG" class="euan-round-large" style="width:30%;" onContextMenu="popupMsg('This image is Copyrighted -- Stitches & Kittens')"></img>
+        <img src="assets/img/CavernTopia.png" class="euan-round-large" style="width:30%;" onContextMenu="popupMsg('This image is Copyrighted -- Stitches & Kittens')"></img>
         <button class="euan-new-button euan-block euan-red euan-padding-16 euan-section euan-right euan-round-large" onclick="document.getElementById('project3').style.display='none'">CLOSE <i class="fa fa-remove"></i></button>
       </div>
     </div>
