@@ -359,7 +359,7 @@ Alert Messages
 
 .alertbox.success {background-color: #4CAF50;}
 .alertbox.warning {background-color: #dbd52a}
-.alertbox.info {background-color: #2a94db}
+.alertbox.info {background-color: #007c04}
 
 .closealert:hover {
   color: black;
