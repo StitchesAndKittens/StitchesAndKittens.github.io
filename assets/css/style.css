@@ -163,6 +163,26 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 }
 
+.euan-new-button{white-space:normal}
+
+.euan-new-button:hover{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+
+.euan-new-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
+
+.euan-new-button{width:100%;text-align:center;padding:8px 16px}
+
+
+.euan-new-button {
+  transition-duration: 0.2s;
+  transition-property: background-color;
+}
+
+.euan-new-button:hover {
+  color:#000!important;
+  background-color:#808080!important;
+  transition-duration: 0.1s;
+}
+
 
 
 .grid-container {
